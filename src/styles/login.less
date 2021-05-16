@@ -1,0 +1,644 @@
+html{
+    font-size: 100%;
+    overflow-y: auto;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    height: 100%;
+    background-color: #fff;
+    min-width: 1024px;
+}
+
+
+.eyeup{
+    background-image: url(../img/login/password_eyeon_disable.png) !important;
+}
+.gray-customer-header {
+    background: rgba(0,0,0,0.05);
+    height: 48px;
+    .head-center{
+        width: auto;
+        max-width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        border: 0;
+        position: relative;
+        font-size: 0;
+        .main-logo{
+            float: left;
+            vertical-align: middle;
+            margin: 0;
+            margin-top: 12px;
+            position: static;
+            left: 2px;
+            img{
+                height: 24px;
+                width: 108px;
+                margin: 0px;
+                vertical-align: middle;
+                float: none;
+            }
+        }
+    }
+    .website-name{
+        font-size: 20px;
+        height: 48px;
+        line-height: 48px;
+        padding: 0;
+        vertical-align: middle;
+        float: left;
+        color: white;
+    }
+    .split-line {
+        float: left;
+        width: 1px;
+        height: 20px;
+        vertical-align: middle;
+        background: rgba(0,0,0,0.2);
+        margin: 14px 16px;
+    }
+    .adHeadTitle{
+        color: #191919;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0;
+        float: left;
+        line-height: 1;
+        margin-top: 16px;
+        
+    }
+}
+
+
+.hwid-root {
+    background-color: transparent;
+    color: #191919;
+    z-index: 99;
+    .hwid-common-line {
+        background: rgba(0,0,0,0.1);
+        width: 100%;
+        height: 1px;
+    }
+    .hwid-disabled {
+        cursor: default!important;
+        opacity: .38;
+    }
+    .hwid-login-root{
+        .login-change-link{
+            padding: 16px 0 0 6.4px;
+        }
+        .hwid-link{
+            padding: 0 12px;
+            cursor: pointer;
+            font-size: 12.8px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .hwid-link-primary {
+            color: #007dff;
+        }
+        .hwid-fullpage-container{
+            text-align: center;
+            min-height: 480px;
+            position: relative;
+        }
+        .hwid-full-header-title{
+            padding: 80px 0 64px;
+            font-size: 25.6px;
+        }
+        .hwid-fullpage-left-side{
+            display: inline-block;
+            width: 288px;
+            vertical-align: top;
+            margin-right: auto;
+        }
+        .hwid-fullpage-split-line{
+            display: inline-block;
+            width: 1px;
+            height: 240px;
+            vertical-align: top;
+            background: rgba(0,0,0,0.1);
+            margin: 0 48px;
+        }
+        .hwid-fullpage-split-line-default-height{
+            height: 240px;
+        }
+        .hwid-fullpage-right-side{
+            text-align: left;
+            margin-top: 0;
+            display: inline-block;
+            vertical-align: top;
+            width: 288px;
+            .hwid-pwdlogin-root{
+                .hwid-input-msg-error{
+                    margin: 0;
+                    position: relative;
+                    .errorDiv{
+                        position: absolute;
+                        width: 100%;
+                        bottom: 3.2px;
+                        span{
+                            line-height: 1.3;
+                        }
+                        .ic-tips{
+                            margin-top: 1px;
+                        }
+                    }
+                }
+                .hwid-login-btn-wrap {
+                    text-align: center;
+                    margin-top: 32px;
+                }
+                
+            }
+            .hwid-smslogin-root{
+                .hwid-input-msg-error{
+                      position: relative;
+                    margin: 0;
+                    .errorDiv{
+                        position: absolute;
+                        width: 100%;
+                        bottom: 3.2px;
+                    }
+                }
+            }
+            .hwid-third-login-list span{
+                width: 32px;
+                height: 32px;
+            }
+        }
+        .userAccount{
+            text-align: left;
+        }
+        .login-change-link{
+            padding: 16px 0 0 6.4px;
+        }
+        .hwid-full-link{
+            padding-top: 32px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            font-size: 0;
+            .hwid-link{
+                position: relative;
+                line-height: 1.3;
+            }
+            .hwid-text-container{
+                text-align: center;
+            }
+        }
+        .hwid-third-login-list {
+            padding: 24px 0 32px;
+            text-align: center;
+            span{
+                margin: 0 20px;
+                cursor: pointer;
+                border-radius: 50%;
+                display: inline-block;
+            }
+            .hwid-icon-third_qq {
+                background: url(../img/login/third_qq.svg) no-repeat;
+                background-position: 50%;
+                background-size: contain;
+            }
+            .hwid-icon-third_qq:hover {
+                background: url(../img/login/third_qq_hover.svg) no-repeat;
+                background-position: 50%;
+                background-size: cover;
+            }
+            .hwid-icon-third_alipay {
+                background: url(../img/login/third_alipay.svg) no-repeat;
+                background-position: 50%;
+                background-size: contain;
+            }
+            .hwid-icon-third_alipay:hover {
+                background: url(../img/login/third_alipay_hover.svg) no-repeat;
+                background-position: 50%;
+                background-size: cover;
+            }
+            .hwid-icon-third_weixin {
+                background: url(../img/login/third_weixin.svg) no-repeat;
+                background-position: 50%;
+                background-size: contain;
+            }
+            .hwid-icon-third_weixin:hover {
+                background: url(../img/login/third_weixin_hover.svg) no-repeat;
+                background-position: 50%;
+                background-size: cover;
+            }
+        }
+    }
+    .hwid-login-root.hwid-login-root-full-page{
+        background: #fff;
+        width: 100%;
+        min-height: 560px;
+        .login-change-link{
+            padding: 12.8px 0 0;
+        }
+    }
+    .hwid-qrCode-root{
+        .hwid-qrcode-full-box {
+            text-align: center;
+            position: relative;
+            .hwid-qrCode-imgDIv{
+                background: #F7F7F7;
+                border-radius: 6.4px;
+                padding: 16px;
+                display: inline-block;
+            }
+        }
+        .hwid-full-qrcode-desc{
+            margin-top: 40px;
+            line-height: 17.6px;
+            color: #838383;
+        }
+    }
+    .hwid-input-msg-error{
+        font-size: 11.200000000000001px;
+        color: #fa2a2d;
+        .errorDiv{
+            display: flex;
+            -webkit-box-pack: start;
+            justify-content: start;
+            -webkit-box-align: start;
+            align-items: flex-start;
+            span{
+                width: calc(100% - 14.4px);
+                line-height: 1.4;
+            }
+            .ic-tips{
+                margin-right: 3.2px;
+                margin-left: 0;
+                background-image: url('../img/login/ic_tips.svg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: inline-block;
+                width: 12.8px;
+                height: 12.8px;
+            }
+        }
+    }
+    .hwid-input-border-transparen{
+        border: 1px solid transparent;
+    }
+    .userAccount{
+        direction: ltr;
+        unicode-bidi: bidi-override;
+        text-align: right;
+        max-width: 100%;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    .hwid-login-input-wrap+.hwid-login-input-wrap{
+        margin-top: 20.8px;
+    }
+    .hwid-input-border{
+        border-radius: 6.4px;
+    }
+    .hwid-input-border-error {
+        border: 1px solid #fa2a2d;
+        border-radius: 6.4px;
+    }
+    .hwid-widget-input .hwid-password-root {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        position: relative;
+    }
+    .hwid-input{
+        padding: 0 12.8px;
+        border: none;
+        border-radius: 6.4px;
+        background: rgba(0, 0, 0, 0.05);
+        outline: 0;
+        height: 38.46px;
+        line-height: 38.46px;
+        width: calc(100% - 25.6px);
+        font-size: 11.21px;
+        color: #191919;
+    }
+    .hwid-widget-input .hwid-password-eyeoff-disable {
+        background-image: url(../img/login/password_eyeoff_disable.svg);
+    }
+    .hwid-widget-input .hwid-password-eyeon-disable {
+        background-image: url(../img/login/password_eyeon_disable.png);
+    }
+    .hwid-widget-input .hwid-password-eye {
+        right: 0;
+        left: auto;
+        margin: 0 14.4px 0 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+        transform: translateY(-50%);
+        height: 19.23px;
+        width: 19.23px;
+        position: absolute;
+        top: 50%;
+    }
+    .hwid-login-root-full-page{
+        .hwid-login-btn{
+            display: block;
+        }
+    }
+    .hwid-btn{
+        padding: 0 12.8px;
+        border: none;
+        border-radius: 6.4px;
+        cursor: pointer;
+        display: block;
+        width: 100%;
+        outline: none;
+        font-size: 12.8px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .hwid-login-btn{
+        padding: 9.61px 24px;
+        display: inline-block;
+        width: auto;
+        min-width: 174.4px;
+        font-size: 14.4px;
+        line-height: 14.4px;
+
+    }
+    .hwid-btn-primary {
+        background: #CA141D;
+        color: #fff;
+    }
+   .hwid-link {
+        font-size: 11.21px;
+        color: #007dff;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .hwid-link:hover {
+        color: #0064cc;
+    }
+    .hwid-dropInpunt {
+        border-radius: 6.4px;
+        padding: 0 12.8px;
+        background: rgba(0, 0, 0, 0.05);
+        height: 38.46px;
+        line-height: 38.46px;
+        display: flex;
+        align-items: center;
+        .hwid-drop-splitLine {
+            float: left;
+            background-color: rgba(0,0,0,0.1);
+            width: 1px;
+            height: 17.6px;
+            vertical-align: middle;
+        }
+        .hwid-widget-input{
+            width: 100%;
+            .hwid-input{
+                padding-right: 0;
+                width: calc(100% - 12.8px);
+            }
+        }
+        .hwid-input{
+            background: transparent;
+        }
+    }
+    .hwid-jssdkDrop-root {
+        float: left;
+        border-radius: 6.4px;
+        max-width: 100%;
+        outline: 0;
+        .hwid-line-container {
+            padding: 0 4px 0 18px;
+            position: relative;
+        }
+        .hwid-ddrop{
+            cursor: pointer;
+            max-width: 100%;
+            height: 35.2px;
+            line-height: 35.2px;
+            vertical-align: middle;
+            position: relative;
+            display: inline-block;
+            font-size: 0;
+        }
+        .hwid-dropMenu{
+            float: right;
+            line-height: 33.6px;
+            display: flex;
+            align-items: center;
+        }
+        .hwid-select-text {
+            display: inline-block;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            font-size: 11.21px;
+            vertical-align: middle;
+            line-height: 33.6px;
+            height: 33.6px;
+            max-width: 121.61px;
+        }
+        .hwid-select-ico{
+            margin: 0 12.8px 0 6.4px;
+            width: 9.61px;
+            height: 5.65px;
+            vertical-align: middle;
+        }
+        
+        .vue-dropdown.default-theme {
+            background-color: #fff;
+            border-radius: 6.4px;
+            border: 1px solid rgba(0,0,0,.06);
+            box-shadow: 0 0 1.6px 1.6px rgb(0 0 0 / 6%);
+            width: 207.22px;
+            position: absolute;
+            min-width: 108.81px;
+            max-width: 232px;
+            z-index: 1000;
+            overflow: hidden;
+            top: 32px;
+            font-size: 9.61px;
+            color: #333;
+            .input-div{
+                border-radius: 6.4px;
+                height: 28.8px;
+                overflow: hidden;
+            }
+            .search-module {
+                position: relative;
+                font-weight: 500;
+                padding: 9.61px 9.61px 14.4px;
+                cursor: default;
+                .search-text {
+                    padding: 0 29.6px 0 32px;
+                    background-size: 16px 16px;
+                    border: 1px solid #fff;
+                    border-radius: 6.4px;
+                    height: 100%;
+                    width: 100%;
+                    box-sizing: border-box;
+                }
+                .search-text.noValue {
+                    background: url(../img/login/ic_search.svg) left 9.61px center no-repeat,rgba(0, 0, 0, 0.05);
+                    background-size: 16px 16px;
+                }
+            }
+            
+            .list-module{
+                margin-right: 3.2px;
+                max-height: 236px;
+                overflow-y: auto;
+                li{
+                    padding: 8px 18px;  
+                    display: list-item;
+                    overflow-x: hidden;
+                    font-size: 14px;
+                    line-height: 20px;
+                    min-height: 20px;
+                }
+            }
+        }
+        
+    }
+    .hwid-dropMenu{
+        max-width: 144px;
+    }
+    .captchaHtml+.hwid-login-input-wrap{
+        margin-top: 20.8px;
+    }
+    .hwid-getAuthCode-input {
+        position: relative;
+        .hwid-smsCode {
+            position: absolute;
+            top: 50%;
+            right: 12.8px;
+            color: #007dff;
+            font-size: 11.200000000000001px;
+            left: auto;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+    }
+    .hwid-smslogin-root {
+        .hwid-login-btn-wrap{
+            text-align: center;
+            margin-top: 32px;
+        }
+    }
+}
+
+.hwid-icon-ic_hint_dropdown {
+    background: url(../img/login/ic_hint_dropdown.svg) no-repeat;
+    background-position: 50%;
+    background-size: contain;
+}
+
+.hwid-input-wrap[data-v-46fc2a08] {
+    position: relative;
+    width: 100%;
+}
+.hwid-input-wrap[data-v-46fc2a08] {
+    position: relative;
+    width: 100%;
+}
+
+.hwid-text-container{
+    text-align: left;
+    display: inline-block;
+    line-height: 1.3;
+}
+
+
+.customer-footer{
+    background: rgba(0,0,0,0.05);
+    height: 110px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: block;
+}
+
+
+.ft{
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    p{
+        display: inline-block;
+        a{
+            font-size: 14px;
+            color: #000;
+            opacity: 1;
+        }
+    }
+    p:first-child{
+        display: block;
+    }
+}
+
+.foot_em{
+    font-size: 16px;
+    color: rgba(0,0,0,0.1);
+    text-align: center;
+    line-height: 20px;
+}
+
+.rule{
+    padding: 0 10px;
+}
+
+
+
+@media only screen and (max-width: 1440px){
+    .gray-customer-header{
+        height: 38.4px;
+    } 
+    .gray-customer-header .head-center{
+        max-width: 960px;
+    }
+    .gray-customer-header .head-center .main-logo{
+       margin-top: 9.6px;
+    }   
+    .gray-customer-header .head-center .website-name{
+        font-size: 16px;
+        height: 38.4px;
+        line-height: 38.4px;
+    }
+    .gray-customer-header .adHeadTitle{
+        font-size: 12.8px;
+        margin-top: 13px;
+    }  
+    .gray-customer-header .split-line{
+        height: 16px;
+        margin: 11.2px 12.8px;
+    } 
+    .gray-customer-header .head-center img{
+        height: 19.2px!important;
+        width: 86.4px!important;
+    }
+    .customer-footer {
+        height: 88px;
+    }
+
+    .customer-footer.bottomAuto {
+        bottom: auto;
+    }
+    .ft{
+        font-size: 11.2px;
+    } 
+    .ft p a{
+        font-size: 11.2px;
+    }
+}
+
+@media only screen and (max-width: 1910px){
+    .customer-footer.bottomAuto {
+        bottom: auto;
+    }
+   
+}

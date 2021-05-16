@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="384px" height="384px" viewBox="0 0 384 384" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>xxxhdpi/ic_about</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M176,0 C273.202116,0 352,78.797884 352,176 C352,273.202116 273.202116,352 176,352 C78.797884,352 0,273.202116 0,176 C0,78.797884 78.797884,0 176,0 Z M176,24 C92.052718,24 24,92.052718 24,176 C24,259.947282 92.052718,328 176,328 C259.947282,328 328,259.947282 328,176 C328,92.052718 259.947282,24 176,24 Z M176,140 C182.627417,140 188,145.372583 188,152 L188,260 C188,266.627417 182.627417,272 176,272 C169.372583,272 164,266.627417 164,260 L164,152 C164,145.372583 169.372583,140 176,140 Z M176,80 C187.045,80 196,88.955 196,100 C196,111.045 187.045,120 176,120 C164.955,120 156,111.045 156,100 C156,88.955 164.955,80 176,80 Z" id="path-1"></path>
+    </defs>
+    <g id="ic_about" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="about" transform="translate(16.000000, 16.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="合并形状" fill="#000000" fill-rule="nonzero" opacity="0.5" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

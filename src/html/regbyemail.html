@@ -1,0 +1,1850 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/pcreset.css">
+    <link rel="stylesheet" href="../css/regbyemail.css">
+</head>
+
+<body style="height: 100%;">
+    <div class="topContent">
+        <div class="gray-customer-header">
+            <div class="head-center">
+                <div class="main-logo adHeadPicContainer">
+                    <img src="https://id1.cloud.huawei.com/CAS/static_rss/rss_71/CAS/logos/HUAWEI.svg" class="adHeadPic"
+                        style="height: 24px;width:108px;margin-top: 0px;">
+                </div>
+                <div class="website-name">
+                    <b class="split-line"></b>
+                    <b class="adHeadTitle">华为商城</b>
+                </div>
+            </div>
+        </div>
+
+        <div style="min-height:700px; height: calc(100% - 155px); background: #fff;">
+            <div class="hwid-root">
+                <div class="hwid-register-main">
+                    <div class="hwid-left hwid-register-tab-wrapper">
+                        <a href="../html/regbyphone.html">
+                            <div ht="click_register_tabPhone" class="hwid-register-tab-item">
+                                <div class="hwid-register-menustyle">
+                                    <i class="hwid-left hwid-register-phoneIcon hwid-register-icon"></i>
+                                    <span class="hwid-text-container">
+                                        <span>手机号注册</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <div ht="click_register_tabEmail" class="hwid-register-tab-item hwid-register-tab-selected">
+                            <div class="hwid-register-menustyle">
+                                <i class="hwid-left hwid-register-emailIcon hwid-register-icon"></i>
+                                <span class="hwid-text-container">
+                                    <span>邮件地址注册</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="registerForm" class="hwid-register-content">
+                        <div>
+                            <div class="hwid-reg-detail">
+                                <div class="hwid-registerTitle">
+                                    <div class="hwid-mianTitle">
+                                        <span class="hwid-text-container"><span>华为帐号注册</span>
+                                        </span>
+                                    </div>
+                                    <!---->
+                                    <div class="hwid-reg-login-link">
+                                        <span class="hwid-text-container">
+                                            <span>已有帐号，</span>
+                                        </span>
+                                        <div class="hwid-reg-link">
+                                            <span ht="click_register_loginLink">
+                                                <span class="hwid-text-container">
+                                                    <span>去登录 ></span>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hwid-input-ctr-parent-div">
+                                    <div id="chooseCountry" class="hwid-input-container">
+                                        <div class="input-left">
+                                            <span class="hwid-text-container">
+                                                <span>国家/地区</span>
+                                            </span>
+                                        </div>
+                                        <div class="input-right">
+                                            <div class="hwid-dropInpout">
+                                                <div tabindex="-1" hidefocus="true"
+                                                    class="hwid-jssdkDrop-root hwid-ctryDropdown"
+                                                    id="hwid-selectCountryImg">
+                                                    <div class="hwid-ddrop">
+                                                        <div class="hwid-dropMenu">
+                                                            <span class="hwid-select-text">中国</span>
+                                                            <div data-ht-dropdownicon="click_common_dropDown"
+                                                                class="hwid-select-ico hwid-icon-ic_hint_dropdown">
+                                                            </div>
+                                                        </div>
+                                                        <div class="vue-dropdown default-theme" style="display: none;">
+                                                            <div class="search-module clearfix">
+                                                                <div class="input-div">
+                                                                    <input data-ht-search="input_common_dropDownSearch"
+                                                                        ht="" placeholder="搜索"
+                                                                        class="search-text noValue">
+                                                                </div>
+                                                            </div>
+
+                                                            <ul class="list-module" style="min-height: 436px;">
+                                                                <div>
+                                                                    <!---->
+                                                                    <li><span data-index="0"
+                                                                            data-ht-item="click_common_li_al"
+                                                                            class="list-item-text">阿尔巴尼亚</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="1"
+                                                                            data-ht-item="click_common_li_dz"
+                                                                            class="list-item-text">阿尔及利亚</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="2"
+                                                                            data-ht-item="click_common_li_af"
+                                                                            class="list-item-text">阿富汗</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="3"
+                                                                            data-ht-item="click_common_li_ar"
+                                                                            class="list-item-text">阿根廷 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="4"
+                                                                            data-ht-item="click_common_li_ie"
+                                                                            class="list-item-text">爱尔兰</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="5"
+                                                                            data-ht-item="click_common_li_eg"
+                                                                            class="list-item-text">埃及</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="6"
+                                                                            data-ht-item="click_common_li_et"
+                                                                            class="list-item-text">埃塞俄比亚</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="7"
+                                                                            data-ht-item="click_common_li_ee"
+                                                                            class="list-item-text">爱沙尼亚</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="8"
+                                                                            data-ht-item="click_common_li_ae"
+                                                                            class="list-item-text">阿拉伯联合酋长国 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="9"
+                                                                            data-ht-item="click_common_li_om"
+                                                                            class="list-item-text">阿曼 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="10"
+                                                                            data-ht-item="click_common_li_ad"
+                                                                            class="list-item-text">安道尔 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="11"
+                                                                            data-ht-item="click_common_li_ao"
+                                                                            class="list-item-text">安哥拉 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="12"
+                                                                            data-ht-item="click_common_li_au"
+                                                                            class="list-item-text">澳大利亚 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="13"
+                                                                            data-ht-item="click_common_li_at"
+                                                                            class="list-item-text">奥地利 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="14"
+                                                                            data-ht-item="click_common_li_az"
+                                                                            class="list-item-text">阿塞拜疆 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="15"
+                                                                            data-ht-item="click_common_li_pg"
+                                                                            class="list-item-text">巴布亚新几内亚 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="16"
+                                                                            data-ht-item="click_common_li_bs"
+                                                                            class="list-item-text">巴哈马 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="17"
+                                                                            data-ht-item="click_common_li_by"
+                                                                            class="list-item-text">白俄罗斯 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="18"
+                                                                            data-ht-item="click_common_li_pk"
+                                                                            class="list-item-text">巴基斯坦 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="19"
+                                                                            data-ht-item="click_common_li_py"
+                                                                            class="list-item-text">巴拉圭 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="20"
+                                                                            data-ht-item="click_common_li_ps"
+                                                                            class="list-item-text">巴勒斯坦 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="21"
+                                                                            data-ht-item="click_common_li_bh"
+                                                                            class="list-item-text">巴林 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="22"
+                                                                            data-ht-item="click_common_li_pa"
+                                                                            class="list-item-text">巴拿马</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="23"
+                                                                            data-ht-item="click_common_li_bg"
+                                                                            class="list-item-text">保加利亚 9</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="24"
+                                                                            data-ht-item="click_common_li_br"
+                                                                            class="list-item-text">巴西 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="25"
+                                                                            data-ht-item="click_common_li_mk"
+                                                                            class="list-item-text">北马其顿 9</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="26"
+                                                                            data-ht-item="click_common_li_bj"
+                                                                            class="list-item-text">贝宁 9</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="27"
+                                                                            data-ht-item="click_common_li_be"
+                                                                            class="list-item-text">比利时 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="28"
+                                                                            data-ht-item="click_common_li_is"
+                                                                            class="list-item-text">冰岛 4</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="29"
+                                                                            data-ht-item="click_common_li_bw"
+                                                                            class="list-item-text">博茨瓦纳 7</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="30"
+                                                                            data-ht-item="click_common_li_pl"
+                                                                            class="list-item-text">波兰 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="31"
+                                                                            data-ht-item="click_common_li_bo"
+                                                                            class="list-item-text">玻利维亚 1</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="32"
+                                                                            data-ht-item="click_common_li_ba"
+                                                                            class="list-item-text">波斯尼亚和黑塞哥维那 7</span>
+                                                                    </li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="33"
+                                                                            data-ht-item="click_common_li_bf"
+                                                                            class="list-item-text">布基纳法索 6</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="34"
+                                                                            data-ht-item="click_common_li_bi"
+                                                                            class="list-item-text">布隆迪 7</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="35"
+                                                                            data-ht-item="click_common_li_gq"
+                                                                            class="list-item-text">赤道几内亚 0</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="36"
+                                                                            data-ht-item="click_common_li_dk"
+                                                                            class="list-item-text">丹麦 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="37"
+                                                                            data-ht-item="click_common_li_de"
+                                                                            class="list-item-text">德国 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="38"
+                                                                            data-ht-item="click_common_li_tg"
+                                                                            class="list-item-text">多哥 8</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="39"
+                                                                            data-ht-item="click_common_li_do"
+                                                                            class="list-item-text">多米尼加共和国 49</span>
+                                                                    </li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="40"
+                                                                            data-ht-item="click_common_li_do"
+                                                                            class="list-item-text">多米尼加共和国 09</span>
+                                                                    </li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="41"
+                                                                            data-ht-item="click_common_li_do"
+                                                                            class="list-item-text">多米尼加共和国 29</span>
+                                                                    </li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="42"
+                                                                            data-ht-item="click_common_li_ec"
+                                                                            class="list-item-text">厄瓜多尔 3</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="43"
+                                                                            data-ht-item="click_common_li_ru"
+                                                                            class="list-item-text">俄罗斯 /span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="44"
+                                                                            data-ht-item="click_common_li_fr"
+                                                                            class="list-item-text">法国 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="45"
+                                                                            data-ht-item="click_common_li_fo"
+                                                                            class="list-item-text">法罗群岛 8</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="46"
+                                                                            data-ht-item="click_common_li_va"
+                                                                            class="list-item-text">梵蒂冈 9</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="47"
+                                                                            data-ht-item="click_common_li_pf"
+                                                                            class="list-item-text">法属波利尼西亚 9</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="48"
+                                                                            data-ht-item="click_common_li_fj"
+                                                                            class="list-item-text">斐济 9</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="49"
+                                                                            data-ht-item="click_common_li_ph"
+                                                                            class="list-item-text">菲律宾 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="50"
+                                                                            data-ht-item="click_common_li_fi"
+                                                                            class="list-item-text">芬兰 8</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="51"
+                                                                            data-ht-item="click_common_li_cv"
+                                                                            class="list-item-text">佛得角 8</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="52"
+                                                                            data-ht-item="click_common_li_gm"
+                                                                            class="list-item-text">冈比亚 0</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="53"
+                                                                            data-ht-item="click_common_li_cg"
+                                                                            class="list-item-text">刚果（布） 2</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="54"
+                                                                            data-ht-item="click_common_li_cd"
+                                                                            class="list-item-text">刚果（金） 3</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="55"
+                                                                            data-ht-item="click_common_li_gl"
+                                                                            class="list-item-text">格陵兰岛 9</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="56"
+                                                                            data-ht-item="click_common_li_ge"
+                                                                            class="list-item-text">格鲁吉亚 5</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="57"
+                                                                            data-ht-item="click_common_li_co"
+                                                                            class="list-item-text">哥伦比亚 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="58"
+                                                                            data-ht-item="click_common_li_cr"
+                                                                            class="list-item-text">哥斯达黎加 6</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="59"
+                                                                            data-ht-item="click_common_li_gp"
+                                                                            class="list-item-text">瓜德罗普 0</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="60"
+                                                                            data-ht-item="click_common_li_kz"
+                                                                            class="list-item-text">哈萨克斯坦 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="61"
+                                                                            data-ht-item="click_common_li_me"
+                                                                            class="list-item-text">黑山 2</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="62"
+                                                                            data-ht-item="click_common_li_nl"
+                                                                            class="list-item-text">荷兰 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="63"
+                                                                            data-ht-item="click_common_li_hn"
+                                                                            class="list-item-text">洪都拉斯 4</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="64"
+                                                                            data-ht-item="click_common_li_gh"
+                                                                            class="list-item-text">加纳 3</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="65"
+                                                                            data-ht-item="click_common_li_ca"
+                                                                            class="list-item-text">加拿大 /span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="66"
+                                                                            data-ht-item="click_common_li_kh"
+                                                                            class="list-item-text">柬埔寨 5</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="67"
+                                                                            data-ht-item="click_common_li_ga"
+                                                                            class="list-item-text">加蓬 1</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="68"
+                                                                            data-ht-item="click_common_li_dj"
+                                                                            class="list-item-text">吉布提 3</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="69"
+                                                                            data-ht-item="click_common_li_cz"
+                                                                            class="list-item-text">捷克共和国 0</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="70"
+                                                                            data-ht-item="click_common_li_kg"
+                                                                            class="list-item-text">吉尔吉斯斯坦 6</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="71"
+                                                                            data-ht-item="click_common_li_zw"
+                                                                            class="list-item-text">津巴布韦 3</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="72"
+                                                                            data-ht-item="click_common_li_gn"
+                                                                            class="list-item-text">几内亚 4</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="73"
+                                                                            data-ht-item="click_common_li_gw"
+                                                                            class="list-item-text">几内亚比绍 5</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="74"
+                                                                            data-ht-item="click_common_li_cm"
+                                                                            class="list-item-text">喀麦隆 7</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="75"
+                                                                            data-ht-item="click_common_li_qa"
+                                                                            class="list-item-text">卡塔尔 4</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="76"
+                                                                            data-ht-item="click_common_li_hr"
+                                                                            class="list-item-text">克罗地亚 5</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="77"
+                                                                            data-ht-item="click_common_li_km"
+                                                                            class="list-item-text">科摩罗 9</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="78"
+                                                                            data-ht-item="click_common_li_ke"
+                                                                            class="list-item-text">肯尼亚 4</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="79"
+                                                                            data-ht-item="click_common_li_ci"
+                                                                            class="list-item-text">科特迪瓦 5</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="80"
+                                                                            data-ht-item="click_common_li_kw"
+                                                                            class="list-item-text">科威特 5</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="81"
+                                                                            data-ht-item="click_common_li_ck"
+                                                                            class="list-item-text">库克群岛 2</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="82"
+                                                                            data-ht-item="click_common_li_ls"
+                                                                            class="list-item-text">莱索托 6</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="83"
+                                                                            data-ht-item="click_common_li_la"
+                                                                            class="list-item-text">老挝 6</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="84"
+                                                                            data-ht-item="click_common_li_lv"
+                                                                            class="list-item-text">拉脱维亚 1</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="85"
+                                                                            data-ht-item="click_common_li_lb"
+                                                                            class="list-item-text">黎巴嫩 1</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="86"
+                                                                            data-ht-item="click_common_li_lr"
+                                                                            class="list-item-text">利比里亚 1</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="87"
+                                                                            data-ht-item="click_common_li_ly"
+                                                                            class="list-item-text">利比亚 8</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="88"
+                                                                            data-ht-item="click_common_li_li"
+                                                                            class="list-item-text">列支敦士登 3</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="89"
+                                                                            data-ht-item="click_common_li_lt"
+                                                                            class="list-item-text">立陶宛 0</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="90"
+                                                                            data-ht-item="click_common_li_re"
+                                                                            class="list-item-text">留尼汪 2</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="91"
+                                                                            data-ht-item="click_common_li_ro"
+                                                                            class="list-item-text">罗马尼亚 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="92"
+                                                                            data-ht-item="click_common_li_lu"
+                                                                            class="list-item-text">卢森堡 2</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="93"
+                                                                            data-ht-item="click_common_li_rw"
+                                                                            class="list-item-text">卢旺达 0</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="94"
+                                                                            data-ht-item="click_common_li_mg"
+                                                                            class="list-item-text">马达加斯加 1</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="95"
+                                                                            data-ht-item="click_common_li_mv"
+                                                                            class="list-item-text">马尔代夫 0</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="96"
+                                                                            data-ht-item="click_common_li_mt"
+                                                                            class="list-item-text">马耳他 6</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="97"
+                                                                            data-ht-item="click_common_li_my"
+                                                                            class="list-item-text">马来西亚 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="98"
+                                                                            data-ht-item="click_common_li_mw"
+                                                                            class="list-item-text">马拉维 5</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="99"
+                                                                            data-ht-item="click_common_li_ml"
+                                                                            class="list-item-text">马里 3</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="100"
+                                                                            data-ht-item="click_common_li_mu"
+                                                                            class="list-item-text">毛里求斯 0</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="101"
+                                                                            data-ht-item="click_common_li_mr"
+                                                                            class="list-item-text">毛里塔尼亚 2</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="102"
+                                                                            data-ht-item="click_common_li_yt"
+                                                                            class="list-item-text">马约特 9</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="103"
+                                                                            data-ht-item="click_common_li_us"
+                                                                            class="list-item-text">美国 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="104"
+                                                                            data-ht-item="click_common_li_mn"
+                                                                            class="list-item-text">蒙古 6</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="105"
+                                                                            data-ht-item="click_common_li_bd"
+                                                                            class="list-item-text">孟加拉 0</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="106"
+                                                                            data-ht-item="click_common_li_mm"
+                                                                            class="list-item-text">缅甸 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="107"
+                                                                            data-ht-item="click_common_li_pe"
+                                                                            class="list-item-text">秘鲁 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="108"
+                                                                            data-ht-item="click_common_li_md"
+                                                                            class="list-item-text">摩尔多瓦 3</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="109"
+                                                                            data-ht-item="click_common_li_ma"
+                                                                            class="list-item-text">摩洛哥 2</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="110"
+                                                                            data-ht-item="click_common_li_mc"
+                                                                            class="list-item-text">摩纳哥 7</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="111"
+                                                                            data-ht-item="click_common_li_mz"
+                                                                            class="list-item-text">莫桑比克 8</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="112"
+                                                                            data-ht-item="click_common_li_mx"
+                                                                            class="list-item-text">墨西哥 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="113"
+                                                                            data-ht-item="click_common_li_na"
+                                                                            class="list-item-text">纳米比亚 4</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="114"
+                                                                            data-ht-item="click_common_li_za"
+                                                                            class="list-item-text">南非 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="115"
+                                                                            data-ht-item="click_common_li_nr"
+                                                                            class="list-item-text">瑙鲁 4</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="116"
+                                                                            data-ht-item="click_common_li_np"
+                                                                            class="list-item-text">尼泊尔 7</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="117"
+                                                                            data-ht-item="click_common_li_ni"
+                                                                            class="list-item-text">尼加拉瓜 5</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="118"
+                                                                            data-ht-item="click_common_li_ne"
+                                                                            class="list-item-text">尼日尔 7</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="119"
+                                                                            data-ht-item="click_common_li_ng"
+                                                                            class="list-item-text">尼日利亚 4</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="120"
+                                                                            data-ht-item="click_common_li_no"
+                                                                            class="list-item-text">挪威 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="121"
+                                                                            data-ht-item="click_common_li_pt"
+                                                                            class="list-item-text">葡萄牙 1</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="122"
+                                                                            data-ht-item="click_common_li_jp"
+                                                                            class="list-item-text">日本 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="123"
+                                                                            data-ht-item="click_common_li_se"
+                                                                            class="list-item-text">瑞典 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="124"
+                                                                            data-ht-item="click_common_li_ch"
+                                                                            class="list-item-text">瑞士 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="125"
+                                                                            data-ht-item="click_common_li_sv"
+                                                                            class="list-item-text">萨尔瓦多 3</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="126"
+                                                                            data-ht-item="click_common_li_rs"
+                                                                            class="list-item-text">塞尔维亚 1</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="127"
+                                                                            data-ht-item="click_common_li_sl"
+                                                                            class="list-item-text">塞拉利昂 2</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="128"
+                                                                            data-ht-item="click_common_li_sn"
+                                                                            class="list-item-text">塞内加尔</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="129"
+                                                                            data-ht-item="click_common_li_cy"
+                                                                            class="list-item-text">塞浦路斯</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="130"
+                                                                            data-ht-item="click_common_li_sc"
+                                                                            class="list-item-text">塞舌尔</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="131"
+                                                                            data-ht-item="click_common_li_sa"
+                                                                            class="list-item-text">沙特阿拉伯</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="132"
+                                                                            data-ht-item="click_common_li_sm"
+                                                                            class="list-item-text">圣马力诺</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="133"
+                                                                            data-ht-item="click_common_li_lk"
+                                                                            class="list-item-text">斯里兰卡 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="134"
+                                                                            data-ht-item="click_common_li_sk"
+                                                                            class="list-item-text">斯洛伐克</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="135"
+                                                                            data-ht-item="click_common_li_si"
+                                                                            class="list-item-text">斯洛文尼亚</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="136"
+                                                                            data-ht-item="click_common_li_sz"
+                                                                            class="list-item-text">斯威士兰</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="137"
+                                                                            data-ht-item="click_common_li_sr"
+                                                                            class="list-item-text">苏里南</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="138"
+                                                                            data-ht-item="click_common_li_sb"
+                                                                            class="list-item-text">所罗门群岛</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="139"
+                                                                            data-ht-item="click_common_li_so"
+                                                                            class="list-item-text">索马里</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="140"
+                                                                            data-ht-item="click_common_li_th"
+                                                                            class="list-item-text">泰国</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="141"
+                                                                            data-ht-item="click_common_li_tj"
+                                                                            class="list-item-text">塔吉克斯坦</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="142"
+                                                                            data-ht-item="click_common_li_to"
+                                                                            class="list-item-text">汤加</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="143"
+                                                                            data-ht-item="click_common_li_tz"
+                                                                            class="list-item-text">坦桑尼亚</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="144"
+                                                                            data-ht-item="click_common_li_tt"
+                                                                            class="list-item-text">特立尼达和多巴哥</span>
+                                                                    </li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="145"
+                                                                            data-ht-item="click_common_li_tr"
+                                                                            class="list-item-text">土耳其</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="146"
+                                                                            data-ht-item="click_common_li_tm"
+                                                                            class="list-item-text">土库曼斯坦</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="147"
+                                                                            data-ht-item="click_common_li_tn"
+                                                                            class="list-item-text">突尼斯</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="148"
+                                                                            data-ht-item="click_common_li_gt"
+                                                                            class="list-item-text">危地马拉</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="149"
+                                                                            data-ht-item="click_common_li_ve"
+                                                                            class="list-item-text">委内瑞拉</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="150"
+                                                                            data-ht-item="click_common_li_bn"
+                                                                            class="list-item-text">文莱</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="151"
+                                                                            data-ht-item="click_common_li_ug"
+                                                                            class="list-item-text">乌干达</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="152"
+                                                                            data-ht-item="click_common_li_ua"
+                                                                            class="list-item-text">乌克兰</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="153"
+                                                                            data-ht-item="click_common_li_uy"
+                                                                            class="list-item-text">乌拉圭</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="154"
+                                                                            data-ht-item="click_common_li_uz"
+                                                                            class="list-item-text">乌兹别克斯坦</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="155"
+                                                                            data-ht-item="click_common_li_es"
+                                                                            class="list-item-text">西班牙 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="156"
+                                                                            data-ht-item="click_common_li_gr"
+                                                                            class="list-item-text">希腊 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="157"
+                                                                            data-ht-item="click_common_li_sg"
+                                                                            class="list-item-text">新加坡 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="158"
+                                                                            data-ht-item="click_common_li_nz"
+                                                                            class="list-item-text">新西兰 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="159"
+                                                                            data-ht-item="click_common_li_hu"
+                                                                            class="list-item-text">匈牙利 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="160"
+                                                                            data-ht-item="click_common_li_jm"
+                                                                            class="list-item-text">牙买加</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="161"
+                                                                            data-ht-item="click_common_li_am"
+                                                                            class="list-item-text">亚美尼亚</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="162"
+                                                                            data-ht-item="click_common_li_ye"
+                                                                            class="list-item-text">也门</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="163"
+                                                                            data-ht-item="click_common_li_it"
+                                                                            class="list-item-text">意大利 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="164"
+                                                                            data-ht-item="click_common_li_iq"
+                                                                            class="list-item-text">伊拉克</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="165"
+                                                                            data-ht-item="click_common_li_in"
+                                                                            class="list-item-text">印度 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="166"
+                                                                            data-ht-item="click_common_li_id"
+                                                                            class="list-item-text">印度尼西亚 </span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="167"
+                                                                            data-ht-item="click_common_li_gb"
+                                                                            class="list-item-text">英国</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="168"
+                                                                            data-ht-item="click_common_li_il"
+                                                                            class="list-item-text">以色列</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="169"
+                                                                            data-ht-item="click_common_li_jo"
+                                                                            class="list-item-text">约旦</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="170"
+                                                                            data-ht-item="click_common_li_vn"
+                                                                            class="list-item-text">越南</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="171"
+                                                                            data-ht-item="click_common_li_zm"
+                                                                            class="list-item-text">赞比亚</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="172"
+                                                                            data-ht-item="click_common_li_td"
+                                                                            class="list-item-text">乍得</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="173"
+                                                                            data-ht-item="click_common_li_gi"
+                                                                            class="list-item-text">直布罗陀</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="174"
+                                                                            data-ht-item="click_common_li_cl"
+                                                                            class="list-item-text">智利</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="175"
+                                                                            data-ht-item="click_common_li_cf"
+                                                                            class="list-item-text">中非共和国</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="176"
+                                                                            data-ht-item="click_common_li_cn"
+                                                                            class="list-item-text">中国</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="177"
+                                                                            data-ht-item="click_common_li_mo"
+                                                                            class="list-item-text">中国澳门</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="178"
+                                                                            data-ht-item="click_common_li_tw"
+                                                                            class="list-item-text">中国台湾</span></li>
+                                                                </div>
+                                                                <div>
+                                                                    <div data-value="0" class="hwid-line-container"
+                                                                        style="display: block;">
+                                                                        <div class="hwid-common-line"></div>
+                                                                    </div>
+                                                                    <li><span data-index="179"
+                                                                            data-ht-item="click_common_li_hk"
+                                                                            class="list-item-text">中国香港</span></li>
+                                                                </div>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div data-ctr-type="email" class="hwid-input-ctr-parent-div">
+                                    <div id="errormsgemail_box" class="hwid-input-container">
+                                        <div class="input-content">
+                                            <input type="text" name="formBean.username" tabindex="1" id="username"
+                                                ht="input_register_Email" maxlength="80" autocomplete="off"
+                                                placeholder="邮件地址" class="hwid-input">
+                                        </div>
+                                    </div>
+                                    <div class="hwid-input-msg-error" id="msg_email">
+                                        <div class="errorDiv">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="hwid-input-msgcode">
+                                    <div>
+                                        <div data-ctr-type="email" class="hwid-input-ctr-parent-div">
+                                            <div id="errRandomCode_box" class="hwid-input-container">
+                                                <div class="input-left" style="display: none;"></div>
+                                                <div class="input-right">
+                                                    <input type="button" id="getValiCode"
+                                                        ht="click_register_getPhoneCode" intervaltime="60" value="获取验证码"
+                                                        class="hwid-get-code dbtn2">
+                                                </div>
+                                                <div class="input-content"><input type="text" autocomplete="off"
+                                                        id="authCode" ht="input_register_phoneCode"
+                                                        name="formBean.authCode" maxlength="8" tabindex="3"
+                                                        placeholder="邮箱验证码" class="hwid-input">
+                                                </div>
+                                            </div>
+                                            <div class="hwid-input-msg-error" id="msg_phoneRandomCode">
+                                                <div class="errorDiv">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="hwid-input-ctr-parent-div">
+                                        <div class="hwid-input-container">
+                                            <div class="input-content">
+                                                <input id="password" name="formBean.password" autocomplete="off"
+                                                    maxlength="32" tabindex="4" placeholder="密码" oncut="return false;"
+                                                    oncopy="return false;" type="password" class="hwid-input">
+                                                <i class="hwid-password-eye hwid-password-eyeoff-disable"></i>
+                                            </div>
+                                        </div>
+                                        <div class="hwid-input-msg-error" id="msg_password">
+                                            <div class="errorDiv">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hwid-input-ctr-parent-div">
+                                        <div id="confirmpwdDiv" class="hwid-input-container">
+                                            <div class="input-content">
+                                                <input id="confirmPwd" name="checkPassword" autocomplete="off"
+                                                    oncut="return false;" oncopy="return false" maxlength="32"
+                                                    tabindex="5" ht="input_register_cfrmPass" placeholder="确认密码"
+                                                    type="password" class="hwid-input">
+                                                <i ht="click_register_eye"
+                                                    class="hwid-password-eye hwid-password-eyeoff-disable"></i>
+                                            </div>
+                                        </div>
+                                        <div class=" hwid-input-msg-error" id="msg_checkPassword">
+                                            <div class="errorDiv">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hwid-reg-btn">
+                                        <input type="button" id="hwid-btnSubmit" value="注册" tabindex="7"
+                                            class="hwid-btn hwid-btn-reg hwid-sel send-ajax">
+                                        <div id="register_msg"></div>
+                                        <div id="register_msg2" class="hwid-vam"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="customer-footer bottomAuto">
+        <div class="ft">
+            <div class="warrant-area">
+                <p style="text-align: center;line-height:20px;height:20px;">
+                    <a class="rule">华为帐号用户协议</a>
+                    <em class="foot_em">|</em>
+                    <a class="rule">关于华为帐号与隐私的声明</a>
+                    <span id="faqPart" class="foot_em">
+                        <em style="font-style: normal">|</em>
+                        <a style="padding:0 10px;">常见问题</a>
+                    </span>
+                    <em class="foot_em">|</em>
+                    <a id="cookieBox" class="rule">Cookies</a>
+                </p>
+                <p style="line-height: 12px;height:12px;margin-top: 10px; color: #000; opacity: 0.3;text-align:center;">
+                    华为帐号 版权所有 © 2011-2021
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div id="login" style="display: none;">
+        <div>
+            <p>注册成功</p>
+            <a href="./login.html">登录</a>
+            
+            <span id="close">X</span>
+        </div>
+    </div>
+</body><script src="../js/regbyemail.js" type="module"></script>
+</html>

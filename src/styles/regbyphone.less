@@ -1,0 +1,648 @@
+html{
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    overflow-y: auto;
+}
+body {
+    height: 100%;
+    background-color: #fff;
+    min-width: 960px;
+    color: #191919;
+}
+
+.eyeup{
+    background-image: url(../img/login/password_eyeon_disable.png) !important;
+}
+.gray-customer-header {
+    background: rgba(0,0,0,0.05);
+    height: 48px;
+    .head-center{
+        width: auto;
+        max-width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        border: 0;
+        position: relative;
+        font-size: 0;
+        .main-logo{
+            float: left;
+            vertical-align: middle;
+            margin: 0;
+            margin-top: 12px;
+            position: static;
+            left: 2px;
+            img{
+                height: 24px;
+                width: 108px;
+                margin: 0px;
+                vertical-align: middle;
+                float: none;
+            }
+        }
+    }
+    .website-name{
+        font-size: 20px;
+        height: 48px;
+        line-height: 48px;
+        padding: 0;
+        vertical-align: middle;
+        float: left;
+        color: white;
+    }
+    .split-line {
+        float: left;
+        width: 1px;
+        height: 20px;
+        vertical-align: middle;
+        background: rgba(0,0,0,0.2);
+        margin: 14px 16px;
+    }
+    .adHeadTitle{
+        color: #191919;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0;
+        float: left;
+        line-height: 1;
+        margin-top: 16px;
+    }
+}
+
+.hwid-root{
+    background-color: transparent;
+    color: #191919;
+    z-index: 99;
+    .hwid-reg-btn {
+        margin-top: 40px;
+        text-align: center;
+        // border: 1px solid #ccc;
+        // border-radius: 16px;
+        // cursor: pointer;
+        // padding: 0 12.8px;
+        // border: none;
+        // border-radius: 6.4px;
+        // outline: none;
+    }
+    .hwid-btn{
+        border: 1px solid #ccc;
+        padding: 0 12.8px;
+        box-sizing: content-box;
+    }
+    .hwid-btn.hwid-btn-reg {
+        border-radius: 6.4px;
+        background: #007dff;
+        width: 220.8px;
+        font-size: 14.4px;
+        font-weight: 400;
+        display: inline-block;
+        height: 38.400000000000006px;
+        color: #fff;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .send-ajax {
+        cursor: default !important;
+        opacity: 0.38!important;
+    }
+    .hwid-input{
+        padding: 0 12.8px;
+        border: none;
+        border-radius: 6.4px;
+        background: rgba(0, 0, 0, 0.05);
+        outline: 0;
+        height: 38.46px;
+        line-height: 38.46px;
+        width: calc(100% - 25.6px);
+        font-size: 11.21px;
+        color: #191919;
+    }
+    .hwid-common-line {
+        background: rgba(0,0,0,0.1);
+        width: 100%;
+        height: 1px;
+    }
+    .hwid-register-main{
+        margin: 0 auto;
+        background: #fff;
+        width: 960px;
+    }
+    .hwid-left{
+        float: left;
+    }
+    .hwid-register-tab-wrapper {
+        margin-top: 32px;
+        width: 192px;
+    }
+    .hwid-register-tab-selected {
+        background: rgba(0,0,0,.05);
+    }
+    .hwid-register-tab-item {
+        padding: 12.8px;
+        border-radius: 6.4px;
+        cursor: pointer!important;
+        width: 100%;
+    }
+    .hwid-register-tab-item:hover {
+        background-color: rgba(0,125,255,.1);
+    }
+    .hwid-register-menustyle {
+        margin: 0 12.8px;
+        cursor: pointer;
+        line-height: 41.6px;
+        font-size: 11.21px;
+        color: #191919;
+        display: inline-flex;
+        align-items: center;
+    }
+    .hwid-register-phoneIcon {
+        background-image: url(../img/reg/phoneIcon.svg);
+    }
+    .hwid-register-emailIcon {
+        background-image: url(../img/reg/mailIcon.svg);
+    }
+    .hwid-register-icon {
+        background-size: 12.8px 12.8px;
+        margin: 0 6.4px;
+        width: 12.8px;
+        min-width: 12.8px;
+        height: 12.8px;
+    }
+    .hwid-text-container {
+        text-align: left;
+        display: inline-block;
+        line-height: 1.3;
+    }
+    .hwid-register-content {
+        margin: 0 auto;
+        width: 768px;
+    }
+    .hwid-reg-detail {
+        padding: 48px 208px 30.42px;
+        background: #fff;
+        font-size: 11.21px;
+        .hwid-dropInpunt {
+            background: transparent;
+        }
+        .hwid-input-msg-error {
+            margin: 6.4px;
+        }
+    }
+    #chooseCountry{
+        .hwid-dropInpunt {
+            float: right;
+            padding: 0;
+        }
+        .vue-dropdown {
+            right: 0;
+            left: auto;
+            top: 33.84px;
+        }
+    }
+    .hwid-dropInpunt{
+        display: flex;
+        align-items: center;
+        height: 38.46px;
+        line-height: 38.46px;
+        margin-bottom: 6.4px;
+        border-radius: 6.4px;
+        padding: 0 12.8px;
+        background: rgba(0, 0, 0, 0.05);
+    }
+    #hwid-selectCountryImg {
+        margin-top: 3.2px;
+        .hwid-select-text {
+            max-width: 60px;
+            display: inline-block;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            font-size: 11.21px;
+            vertical-align: middle;
+            line-height: 33.6px;
+            height: 33.6px;
+            max-width: 121.61px;
+        }
+    }
+    .hwid-jssdkDrop-root {
+        float: left;
+        border-radius: 6.4px;
+        max-width: 100%;
+        outline: 0;
+        .hwid-line-container {
+            padding: 0 4px 0 18px;
+            position: relative;
+        }
+        .hwid-ddrop{
+            cursor: pointer;
+            max-width: 100%;
+            height: 35.2px;
+            line-height: 35.2px;
+            vertical-align: middle;
+            position: relative;
+            display: inline-block;
+            font-size: 0;
+        }
+        .hwid-dropMenu{
+            float: right;
+            line-height: 33.6px;
+            display: flex;
+            align-items: center;
+            max-width: 144px;
+        }
+        .hwid-select-text {
+            display: inline-block;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            font-size: 11.21px;
+            vertical-align: middle;
+            line-height: 33.6px;
+            height: 33.6px;
+            max-width: 121.61px;
+        }
+        .hwid-select-ico {
+            margin: 0 12.8px 0 6.4px;
+            width: 9.61px;
+            height: 5.65px;
+            vertical-align: middle;
+        }
+        .vue-dropdown.default-theme {
+            background-color: #fff;
+            border-radius: 6.4px;
+            border: 1px solid rgba(0,0,0,.06);
+            box-shadow: 0 0 1.6px 1.6px rgb(0 0 0 / 6%);
+            position: absolute;
+            width: 207.22px;
+            min-width: 108.81px;
+            max-width: 232px;
+            z-index: 1000;
+            overflow: hidden;
+            top: 32px;
+            font-size: 9.61px;
+            color: #333;
+            .search-module {
+                position: relative;
+                font-weight: 500;
+                padding: 9.61px 9.61px 14.4px;
+                cursor: default;
+                .search-text {
+                    padding: 0 29.6px 0 32px;
+                    background-size: 16px 16px;
+                    border: 1px solid #fff;
+                    border-radius: 6.4px;
+                    height: 100%;
+                    width: 100%;
+                    box-sizing: border-box;
+                }
+                .search-text.noValue {
+                    background: url(../img/login/ic_search.svg) left 9.61px center no-repeat,rgba(0, 0, 0, 0.05);
+                    background-size: 16px 16px;
+                }
+            }
+            
+            .list-module{
+                margin-right: 3.2px;
+                max-height: 236px;
+                overflow-y: auto;
+                li{
+                    padding: 8px 18px;  
+                    display: list-item;
+                    overflow-x: hidden;
+                    font-size: 14px;
+                    line-height: 20px;
+                    min-height: 20px;
+                }
+            }
+            .input-div {
+                border-radius: 6.4px;
+                height: 28.8px;
+                overflow: hidden;
+            }
+        }
+    }
+    .hwid-jssdkDrop-root:last-child {
+        margin-right: 0;
+    }
+    .hwid-jssdkDrop-root.hwid-ctryDropdown .hwid-dropMenu {
+        max-width: 144px;
+    }
+    .hwid-pipe {
+        left: 6.4px;
+        right: auto;
+        background: rgba(0,0,0,0.1);
+        width: 1px;
+        height: 21.6px;
+        display: inline-block;
+        position: relative;
+    }
+    .hwid-input-msg-error {
+        font-size: 11.21px;
+        color: #fa2a2d;
+        .errorDiv {
+            display: flex;
+            justify-content: start;
+            -webkit-align-items: flex-start;
+            align-items: flex-start;
+            span {
+                width: calc(100% - 14.4px);
+                line-height: 1.4;
+            }
+            .ic-tips {
+                display: inline-block;
+                width: 12.8px;
+                height: 12.8px;
+                margin-right: 3.2px;
+                margin-left: 0;
+                background-image: url(../img/login/ic_tips.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-top: 2.44px;
+        
+            }    
+        }
+    }
+}
+
+#phoneInputDiv_box #hwid-selectCountryImg .hwid-select-text {
+    max-width: 60px;
+}
+
+.hwid-icon-ic_hint_dropdown {
+    background: url(../img/reg/ic_hint_dropdown.svg) no-repeat;
+    background-position: 50%;
+    background-size: contain;
+}
+
+.hwid-registerTitle {
+    text-align: center;
+    margin: 8px 0 48px;
+}
+
+.hwid-mianTitle {
+    text-align: center;
+    font-size: 25.6px;
+    color: #191919;
+}
+
+.hwid-text-container {
+    display: inline-block;
+    line-height: 1.3;
+}
+
+.hwid-reg-login-link{
+    font-size: 14.4px;
+    color: #191919;
+    display: inline-block;
+    margin-top: 6.4px;
+}
+.hwid-reg-link {
+    display: inline-block;
+    color: #007dff;
+    font-size: 14.4px;
+    cursor: pointer;
+}
+
+.hwid-input-container {
+    height: 38.46px;
+    width: 100%;
+    position: relative;
+    margin-top: 16px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 6.4px;
+    border: 1px solid transparent;
+    .input-left{
+        border-right: 0;
+        float: left;
+        padding: 0 12.8px;
+        height: 100%;
+        line-height: 38.46px;
+    }
+    .input-right{
+        float: right;
+        height: 100%;
+        line-height: 38.46px;
+    }
+    .input-content {
+        position: relative;
+        height: 100%;
+        overflow: hidden;
+    }
+   .input-content input {
+        border: 0;
+        background: transparent;
+        height: 100%;
+        width: 100
+    }
+   .hwid-get-code {
+        border: none;
+        cursor: pointer;
+        background: transparent;
+        display: inline-block;
+        height: 100%;
+        color: #007dff;
+        font-size: 11.200000000000001px;
+    }
+    .hwid-get-code.hwid-disabled{
+        cursor: default!important;
+    }
+    .hwid-password-eye{
+        right: 0;
+        margin: 0 12.8px 0 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+        transform: translateY(-50%);
+        height: 19.23px;
+        width: 19.23px;
+        position: absolute;
+        top: 50%;
+    }
+    .hwid-password-eyeoff-disable {
+        background-image: url(../img/login/password_eyeoff_disable.svg);
+    }
+}
+.hwid-input-ctr-parent-div{
+    position: relative;
+}
+.input-right {
+    .hwid-get-code {
+        margin-right: 12.8px;
+    }
+}
+
+
+#login{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: 9999999;
+    div{
+        width: 500px;
+        height: 300px;
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        p{
+            font-size: 50px;
+            margin-top: 40px;
+        }
+        a{
+            // float: left;
+            display: inline-block;
+            background-color: rgb(230, 76, 29);
+            width: 150px;
+            height: 60px;
+            margin: 50px 0 0 ;
+            line-height: 60px;
+            font-size: 30px;
+        }
+        span{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 15px;
+            height: 15px;
+            border: 1px solid black;
+            border-radius: 50%;
+            line-height: 15px;
+            color: #000;
+            cursor: pointer;
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.customer-footer{
+    background: rgba(0,0,0,0.05);
+    height: 110px;
+    position: absolute;
+    bottom: 0;
+    
+    width: 100%;
+    display: block;
+}
+// .customer-footer.bottomAuto {
+//     bottom: auto;
+// }
+
+.ft{
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    p{
+        display: inline-block;
+        a{
+            font-size: 14px;
+            color: #000;
+            opacity: 1;
+        }
+    }
+    p:first-child{
+        display: block;
+    }
+}
+
+.foot_em{
+    font-size: 16px;
+    color: rgba(0,0,0,0.1);
+    text-align: center;
+    line-height: 20px;
+}
+
+.rule{
+    padding: 0 10px;
+}
+
+@media only screen and (max-width: 1440px){
+    .gray-customer-header{
+        height: 38.4px;
+    } 
+    .gray-customer-header .head-center{
+        max-width: 960px;
+    }
+    .gray-customer-header .head-center .main-logo{
+       margin-top: 9.6px;
+    }   
+    .gray-customer-header .head-center .website-name{
+        font-size: 16px;
+        height: 38.4px;
+        line-height: 38.4px;
+    }
+    .gray-customer-header .adHeadTitle{
+        font-size: 12.8px;
+        margin-top: 13px;
+    }  
+    .gray-customer-header .split-line{
+        height: 16px;
+        margin: 11.2px 12.8px;
+    } 
+    .gray-customer-header .head-center img{
+        height: 19.2px!important;
+        width: 86.4px!important;
+    }
+    .customer-footer {
+        height: 88px;
+    }
+    .ft{
+        font-size: 11.2px;
+    } 
+    .ft p a{
+        font-size: 11.2px;
+    }
+    .customer-footer.bottomAuto {
+        bottom: auto;
+    }
+   
+}
+
+@media only screen and (max-width: 1910px){
+    .customer-footer.bottomAuto {
+        bottom: auto;
+    }
+   
+}
