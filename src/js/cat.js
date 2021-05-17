@@ -111,7 +111,7 @@ if (shop) {
                     }
 
                 }
-
+                $('.total-choose em').html($('.vam').filter('.checked').length)
             })
             $('.vam').each(function () {
                 tota += +$(this).parents().eq(1).find('.p-price-total i').html()
@@ -122,7 +122,16 @@ if (shop) {
                 location.reload();
             })
             $('#delAll').click(function () {
-                cookie.set('shop', '', 1);
+                let id = []
+                $('.vam').filter('.checked').each(function () {
+                    id.push($(this).parents().eq(1).find('.p-del').attr('data-id'))
+                })
+                for (let key in id) {
+                    shop = shop.filter(el => el.id != id[key]);
+                }
+
+
+                cookie.set('shop', JSON.stringify(shop), 1);
                 location.reload();
             })
 
@@ -145,10 +154,10 @@ if (shop) {
                 let buynum = $(this).parent().parent().find('input').val()
                 let dan = $(this).parents().eq(4).find('.p-price em').html()
                 $(this).parents().eq(4).find('.p-price-total i').html(((buynum - 1) * dan).toFixed(2))
-                if(+$(this).parents().eq(4).find('.p-price-total i').html() <= +dan){
+                if (+$(this).parents().eq(4).find('.p-price-total i').html() <= +dan) {
                     $(this).parents().eq(4).find('.p-price-total i').html(dan)
                 }
-                if (+buynum > 1)  {
+                if (+buynum > 1) {
                     $(this).parent().parent().find('input').val(+buynum - 1)
                 }
                 let oltotals = $('.sc-total-price').find('em').html()
@@ -160,45 +169,60 @@ if (shop) {
                 }
             })
 
-            $("#checkedAll").click(function () {
+            // $("#checkedAll").click(function () {
 
-                if ($(this).hasClass('checked')) {
-            
-                    $(this).removeClass('checked')
-                    $('.vam').each(function () {
-                        if ($(this).hasClass('checked')) {
-                            tota += +$(this).parents().eq(1).find('.p-price-total i').html()
-                        }
-                    })
-                    $('.sc-total-price').find('em').eq(0).html(`0.00`)
-                } else if (!$(this).hasClass('checked')) {
-                    $(this).addClass('checked')
-                    $('.sc-total-price').find('em').eq(0).html(`${(tota).toFixed(2)}`)
-                    tota = null
-            
-                }
-            
-            })
-            $("#checkedAll2").click(function () {
-                if ($(this).hasClass('checked')) {
-            
-                    $(this).removeClass('checked')
-                    $('.vam').each(function () {
-                        if ($(this).hasClass('checked')) {
-                            tota += +$(this).parents().eq(1).find('.p-price-total i').html()
-                        }
-                    })
-                    $('.sc-total-price').find('em').eq(0).html(`0.00`)
-                } else if (!$(this).hasClass('checked')) {
-                    $(this).addClass('checked')
-                    $('.sc-total-price').find('em').eq(0).html(`${(tota).toFixed(2)}`)
-                    console.log(tota)
-                    tota = null
-            
-                }
-            })
+            //     if ($(this).hasClass('checked')) {
+
+            //         $(this).removeClass('checked')
+            //         $('.vam').each(function () {
+            //             if ($(this).hasClass('checked')) {
+            //                 tota += +$(this).parents().eq(1).find('.p-price-total i').html()
+            //             }
+            //         })
+            //         $('.sc-total-price').find('em').eq(0).html(`0.00`)
+            //     } else if (!$(this).hasClass('checked')) {
+            //         $(this).addClass('checked')
+            //         $('.sc-total-price').find('em').eq(0).html(`${(tota).toFixed(2)}`)
+            //         tota = null
+
+            //     }
+
+            // })
+            // $("#checkedAll2").click(function () {
+            //     if ($(this).hasClass('checked')) {
+
+            //         $(this).removeClass('checked')
+            //         $('.vam').each(function () {
+            //             if ($(this).hasClass('checked')) {
+            //                 tota += +$(this).parents().eq(1).find('.p-price-total i').html()
+            //             }
+            //         })
+            //         $('.sc-total-price').find('em').eq(0).html(`0.00`)
+            //     } else if (!$(this).hasClass('checked')) {
+            //         $(this).addClass('checked')
+            //         $('.sc-total-price').find('em').eq(0).html(`${(tota).toFixed(2)}`)
+            //         console.log(tota)
+            //         tota = null
+
+            //     }
+            // })
 
             $('#checkedAll').click(function () {
+                if ($(this).hasClass('checked')) {
+
+                    $(this).removeClass('checked')
+                    $('.vam').each(function () {
+                        if ($(this).hasClass('checked')) {
+                            tota += +$(this).parents().eq(1).find('.p-price-total i').html()
+                        }
+                    })
+                    $('.sc-total-price').find('em').eq(0).html(`0.00`)
+                } else if (!$(this).hasClass('checked')) {
+                    $(this).addClass('checked')
+                    $('.sc-total-price').find('em').eq(0).html(`${(tota).toFixed(2)}`)
+                    tota = null
+
+                }
 
                 let ck = $(this).attr('class')
                 $(".vam").attr('class', ck + ' vam')
@@ -207,22 +231,38 @@ if (shop) {
                 } else {
                     $('#checkedAll2').attr('class', 'checked')
                 }
-            
-            
+                $('.total-choose em').html($('.vam').filter('.checked').length)
+
             })
             $('#checkedAll2').click(function () {
-            
+                if ($(this).hasClass('checked')) {
+
+                    $(this).removeClass('checked')
+                    $('.vam').each(function () {
+                        if ($(this).hasClass('checked')) {
+                            tota += +$(this).parents().eq(1).find('.p-price-total i').html()
+                        }
+                    })
+                    $('.sc-total-price').find('em').eq(0).html(`0.00`)
+                } else if (!$(this).hasClass('checked')) {
+                    $(this).addClass('checked')
+                    $('.sc-total-price').find('em').eq(0).html(`${(tota).toFixed(2)}`)
+                    tota = null
+                }
+
                 let ck2 = $(this).attr('class')
-            
+
                 $(".vam").attr('class', ck2 + ' vam')
-            
+
                 if ($('#checkedAll').attr('class')) {
                     $('#checkedAll').attr('class', '')
-            
+
                 } else {
                     $('#checkedAll').attr('class', 'checked')
-            
+
                 }
+
+                $('.total-choose em').html($('.vam').filter('.checked').length)
             })
         }
     });
