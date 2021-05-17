@@ -47,6 +47,11 @@ $.ajax({
         $(".cloud-zoom-big").css('background-image', `url(${picture[1].src})`)
         $('.product-button01').on('click', function() {
             addItem(res.id, res.price, $('#pro-quantity').val());
+            
+            $('.success').fadeIn();
+            setTimeout(function(){
+                $('.success').fadeOut();
+            },500)
         });
 
 
@@ -170,3 +175,5 @@ small.on('mouseleave', function () {
     movebox.css('display', 'none')
     big.css('display', 'none')
 });
+
+
